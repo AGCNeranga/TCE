@@ -61,7 +61,7 @@ function processText() {
     }
   });
 
-  const specialWords = ['today', 'yesterday', 'tomorrow', ' on a Monday', 'Monday'];
+  const specialWords = ['today', 'yesterday', 'tomorrow', 'on a Monday', 'Monday'];
   specialWords.forEach(word => {
     const escapedWord = escapeRegex(word);
     const regex = new RegExp(`(?<!<strong[^>]*?>)(\\b${escapedWord}\\b)`, 'gi');
@@ -76,4 +76,5 @@ function clearText() {
   document.getElementById('output').innerHTML = '';
   document.getElementById('highlightAll').checked = false;
 }
+
 
