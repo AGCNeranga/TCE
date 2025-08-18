@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: url('https://png.pngtree.com/background/20250209/original/pngtree-jockeys-competing-on-horses-in-a-fast-paced-race-capturing-the-picture-image_16064888.jpg') no-repeat center center fixed;
+  background: url('https://images.unsplash.com/photo-1504270997636-07ddfbd48945') no-repeat center center fixed;
   background-size: cover;
   color: orange;
 }
@@ -218,6 +218,7 @@ footer {
     font-size: 24px;
   }
 }
+
 
 
 
