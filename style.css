@@ -21,6 +21,7 @@ body {
   box-sizing: border-box;
 }
 
+/* charith neranga box */
 .password-box {
   background: white;
   padding: 150px 40px 40px 40px;
@@ -218,6 +219,7 @@ footer {
     font-size: 24px;
   }
 }
+
 
 
 
