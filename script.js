@@ -4,7 +4,7 @@ document.getElementById("passwordInput").addEventListener("keydown", function (e
     checkPassword();
   }
 });
-
+// charith neranga website
 function checkPassword() {
   const correctPassword = "1234";
   const input = document.getElementById("passwordInput").value.trim();
@@ -42,6 +42,8 @@ function processText() {
     horseEntries.push({ horseName, hasNAP });
   }
 
+  // charith neranga website
+  
   if (horseEntries.length === 0) {
     outputDiv.innerHTML = "<span style='color:red;'>❌ No horse names found in SELECTIONS.</span>";
     return;
@@ -76,6 +78,7 @@ function clearText() {
   document.getElementById('output').innerHTML = '';
   document.getElementById('highlightAll').checked = false;
 }
+
 
 
 
