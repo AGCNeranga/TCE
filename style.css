@@ -30,7 +30,7 @@ body {
   text-align: center;
   width: 320px;
   position: relative;
-  background-image: url('https://www.sprintysteed.com/images/runner/endless.gif');
+  background-image: url('https://cdn.dribbble.com/userupload/24438965/file/original-5e344de07b6ecd30e55f00dc85d6ef5a.gif');
   background-repeat: no-repeat;
   background-position: center 30px;
   background-size: 100px auto;
@@ -219,6 +219,7 @@ footer {
     font-size: 24px;
   }
 }
+
 
 
 
